@@ -1,85 +1,65 @@
-body {
-  text-align: center;
-  margin: 0;
-  color: #132c33;
-}
-
 .top-container {
-  background-color: #d8e3e7;
-  position: absolute;
-  width: auto;
-  height: auto;
-  left: 0px;
-  top: 0px;
-  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .top-moving-cloud {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  left: 55px;
-  top: -200px;
+  top: -20%;
+  left: 15%;
+  height: 50%;
 }
 
-.top-cloud-and-sun {
-  /* cloud and sun 2 */
-
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  left: 1100px;
-  top: -5px;
+.heading_div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
 }
 
-.top-main-text {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 72px;
-  line-height: 117px;
-  width: 693px;
-  height: 117px;
-  text-align: center;
-  margin: 200px auto -25px auto;
+.heading_div_parent {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+}
+.heading_div_1 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.top-subhead {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 34px;
-  line-height: 51px;
-  margin: 0 auto;
+.heading_div_2 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  
+ 
 }
-
-.top-static-cloud {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  left: 86px;
-  top: 200px;
+.top-main-text{
+  font-size: 6rem;
+  font-family:  Montserrat;
 }
-.mountain1 {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  left: 0px;
-  top: 60px;
+.top-subhead{
+  font-size: 2.5rem;
+  font-family:  Montserrat;
 }
-
-.mountain2 {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  left: 400px;
-  top: 60px;
-}
-
-.mountain3 {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  left: 900px;
-  top: 60px;
+.top-cloud-and-sun{
+  height: 100%;
 }
