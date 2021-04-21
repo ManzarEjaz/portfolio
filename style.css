@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #132c33;
+}
+
+.top-container {
+  background-color: #d8e3e7;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  margin: 0;
+}
+
+.top-moving-cloud {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 55px;
+  top: -200px;
+}
+
+.top-cloud-and-sun {
+  /* cloud and sun 2 */
+
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 1100px;
+  top: -5px;
+}
+
+.top-main-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 117px;
+  width: 693px;
+  height: 117px;
+  text-align: center;
+  margin: 200px auto -25px auto;
+}
+
+.top-subhead {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 51px;
+  margin: 0 auto;
+}
+
+.top-static-cloud {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 86px;
+  top: 200px;
+}
+.mountain1 {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 0px;
+  top: 60px;
+}
+
+.mountain2 {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 400px;
+  top: 60px;
+}
+
+.mountain3 {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 900px;
+  top: 60px;
+}
